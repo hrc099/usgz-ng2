@@ -1,3 +1,49 @@
-<p>
-  membership works!
-</p>
+<div id="main">
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                        <div class="col-md-6">
+                            <h2>Popis članova</h2>
+                                Ako i ti želiš biti član/ica, <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0XdU-0Hmxxh9sqBa-D2P8Yv_n4u7_hUjY5h_U69mjWOIcsw/viewform" target="_blank">učlani se</a>.
+                                <br>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Prezime</th>
+                                            <th>Ime</th>
+                                            <th>Vrsta članstva</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let member of members">
+                                          <td>{{ member.surname }}</td>
+                                          <td>{{ member.name }}</td>
+                                          <td>{{ member.status }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <h2>Vrste članstva</h2>
+                            <p>
+                                Članovi Udruge mogu biti redovni, izvanredni i počasni. Redovni članovi Udruge mogu postati 
+                                svi studenti s prebivalištem na području grada Zaprešića ili okolnih općina. Izvanredni članovi 
+                                mogu postati sve punoljetne osobe u Republici Hrvatskoj koje poštuju Statut i ciljeve Udruge, 
+                                a počasno članstvo dodjeljuje Skupština osobama koje su svojim djelovanjem iznimno doprinijele Udruzi.
+                            </p>
+                            <h2>Članovi Upravnog odbora</h2>
+                            <p>
+                                Upravni odbor vodi aktivnosti Udruge između sjednica Skupštine. Upravni odbor se sastoji od predsjednika, potpredsjednika i tajnika Udruge te dva člana koje bira Skupština.
+                                Članovi upravnog odbora su:
+                                <br><br>
+                                Augustin Mutak, predsjednik<br>
+                                Hrvoje Husnjak, potpredsjednik<br>
+                                Vito Prtenjača, tajnik<br>
+                                Ante Malinar, član UO<br>
+                                Karlo Imrović, član UO<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

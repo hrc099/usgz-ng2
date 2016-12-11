@@ -9,8 +9,11 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { MembershipComponent } from './membership/membership.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { HomeComponent } from './home/home.component';
+import { MembershipService } from './membership/membership.service';
 
 const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'o-nama', component: AboutComponent },
   { path: 'kontakt', component: ContactComponent },
   { path: 'clanstvo', component: MembershipComponent },
@@ -23,7 +26,8 @@ const appRoutes: Routes = [
     AboutComponent,
     ContactComponent,
     MembershipComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,9 @@ const appRoutes: Routes = [
     HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [
+    MembershipService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Doroteja",
+        "surname": "Brajković",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Miljenko",
+        "surname": "Bulaš",
+        "status": "počasno",
+        "isActive": true
+    },
+    {
+        "name": "Ivan",
+        "surname": "Cindrić",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Ivor",
+        "surname": "Horvat",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Tibor",
+        "surname": "Horvat",
+        "status": "počasno",
+        "isActive": true
+    },
+    {
+        "name": "Hrvoje",
+        "surname": "Husnjak",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Karlo",
+        "surname": "Imrović",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Andrija",
+        "surname": "Ivančić",
+        "status": "počasno",
+        "isActive": true
+    },
+    {
+        "name": "Luka",
+        "surname": "Jović",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Nikola",
+        "surname": "Jukić",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Martina",
+        "surname": "Jurič",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Ante",
+        "surname": "Malinar",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Tena",
+        "surname": "Malinar",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Daniel",
+        "surname": "Martinović",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Augustin",
+        "surname": "Mutak",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Ana",
+        "surname": "Pavlović",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Vito",
+        "surname": "Prtenjača",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Mislav",
+        "surname": "Štih",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Lara",
+        "surname": "Telenta",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
+        "name": "Dino",
+        "surname": "Trivunović",
+        "status": "redovno",
+        "isActive": true
+    }
+]
