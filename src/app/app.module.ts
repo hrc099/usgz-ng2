@@ -18,7 +18,7 @@ const appRoutes: Routes = [
   { path: 'kontakt', component: ContactComponent },
   { path: 'clanstvo', component: MembershipComponent },
   { path: 'projekti', component: ProjectsComponent }
-]
+];
 
 @NgModule({
   declarations: [

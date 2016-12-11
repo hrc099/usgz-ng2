@@ -4,7 +4,7 @@ export class Member {
     private status: string;
     private isActive: boolean;
 
-    constructor(name: string, surname: string, status: string, isActive: boolean = true) {
+    constructor(name: string, surname: string, status: string, isActive) {
         this.name = name;
         this.surname = surname;
         this.status = status;
