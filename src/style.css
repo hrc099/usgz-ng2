@@ -83,7 +83,7 @@ a, a:hover, a:focus {
     height: 85vh;
     background-size: cover;
     background-position: center top;
-    background-image: url('../img/front1-min.jpg');
+    background-image: url('/img/front1-min.jpg');
     background-attachment: fixed;
 }
 
@@ -135,7 +135,6 @@ a, a:hover, a:focus {
 }
 
 .navbar-nav > li {
-    float: none;
     display: inline-block;
     width: 120px;
     font-size: 20px;
@@ -190,12 +189,12 @@ a, a:hover, a:focus {
 
 .big-font {
     text-transform: uppercase;
-    font: 900 48px/1.1 'Roboto', 'Roboto', sans-serif;
+    font: 900 48px/1.1 'Roboto', 'Arial', sans-serif;
     /*color: #000;*/
 }
 
 .intro-font {
-    font: 400 38px/0.8 'Great Vibes', Helvetica, sans-serif;
+    font: 400 38px/0.8 'Great Vibes', 'Arial', sans-serif;
     box-shadow: rgba(0,0,0,0.2);
     color: #195493; 
 }
@@ -223,7 +222,7 @@ a, a:hover, a:focus {
 }
 
 .img-correct {
-    background: url('../img/studenti-graf.jpg') no-repeat;
+    background: url('img/studenti-graf.jpg') no-repeat;
     background-size: contain;
     min-height: 336px;
 }
@@ -237,7 +236,7 @@ a, a:hover, a:focus {
 }
 
 .projects-img {
-    background: url('../img/slika.jpg') no-repeat;
+    background: url('img/slika.jpg') no-repeat;
     background-size: cover;
     min-height: 350px;
     margin-bottom: 40px;
@@ -248,7 +247,7 @@ a, a:hover, a:focus {
 }
 
 .projects-img2 {
-    background: url('../img/slika2.jpg') no-repeat;
+    background: url('img/slika2.jpg') no-repeat;
     background-size: cover;
     min-height: 350px;
     margin-bottom: 40px;
@@ -257,7 +256,7 @@ a, a:hover, a:focus {
 }
 
 .projects-img3 {
-    background: url('../img/czmz-logo1.jpg') no-repeat center;
+    background: url('img/czmz-logo1.jpg') no-repeat center;
     background-size: contain;
     min-height: 200px;
     margin: 0 auto;
@@ -268,7 +267,7 @@ a, a:hover, a:focus {
 }
 
 .projects-img4 {
-    background: url('../img/ipyg-logo.png') no-repeat center;
+    background: url('img/ipyg-logo.png') no-repeat center;
     background-size: contain;
     min-height: 200px;
     margin-bottom: 40px;
