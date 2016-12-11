@@ -1,0 +1,477 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+.section {
+    padding-bottom: 0px;
+}
+
+h1, h2, h3, a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+
+a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #195493;
+    transition: width .5s ease;
+}
+
+a:hover:before {
+    width: 100%;
+    background: #195493;
+    transition: width .5s ease;
+}
+
+a:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+a, a:hover, a:focus {
+    color: #195493;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #000;
+}
+
+.text-primary {
+    color: #195493;
+}
+
+.cover-image-landing {
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('../img/front1-min.jpg');
+    background-attachment: fixed;
+}
+
+.mini-mobile-logo {
+    margin-left: 50px;
+    position: absolute;
+    height: 80vh;
+    display: block; padding-top: 10px !important;
+}
+
+.navbar {
+    border: 0px;
+    border-radius: 0px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.navbar-collapse {
+    text-align:center;
+    box-shadow: none;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-radius: none;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+.navbar-nav-scrolled {
+    position: fixed;
+    top: -5vh;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+    width: 120px;
+    font-size: 20px;
+}
+
+.disabled-link, .disabled-link:hover, .disabled-link:before,
+.disabled-link:after {
+    content: none;
+    -webkit-transition-property: none;
+    transition-property: none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.icon-bar {
+    background-color: black !important;
+}
+
+.front {
+    color: #195493;
+    margin-bottom: 0px !important;
+    padding: 0px;
+    background-color: transparent;
+    /*display: flex;*/
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    min-height: 92vh;
+}
+
+.overlay {
+    position:absolute;
+    background-color: white;
+    opacity:0.5;
+}
+
+.front-text {
+    position: absolute;
+    top: 38vh;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front-text i {
+    font-size: 48px;
+}  
+
+.big-font {
+    text-transform: uppercase;
+    font: 900 48px/1.1 'Roboto', 'Roboto', sans-serif;
+    /*color: #000;*/
+}
+
+.intro-font {
+    font: 400 38px/0.8 'Great Vibes', Helvetica, sans-serif;
+    box-shadow: rgba(0,0,0,0.2);
+    color: #195493; 
+}
+
+.index-big-link div {
+    text-align: center;
+    width: 100%;
+}
+
+.big-icon {
+    font-size: 160px !important;
+    color: #000;
+}
+
+.no-padding {
+    padding-left: 0px;
+}
+
+.povijest-fix {
+    padding-left: 0px;
+}
+
+.correct {
+    margin-top: 63px;
+}
+
+.img-correct {
+    background: url('../img/studenti-graf.jpg') no-repeat;
+    background-size: contain;
+    min-height: 336px;
+}
+
+.padding-fix {
+    padding-left: 15px;
+}
+
+.sm-fix {
+    padding-right: 0px; 
+}
+
+.projects-img {
+    background: url('../img/slika.jpg') no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-right: 0px;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+}
+
+.projects-img2 {
+    background: url('../img/slika2.jpg') no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    margin-bottom: 40px;
+    padding: 0px;
+    border-right: 15px solid #fff;
+}
+
+.projects-img3 {
+    background: url('../img/czmz-logo1.jpg') no-repeat center;
+    background-size: contain;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 0px;
+    border-left: 15px solid #fff;
+}
+
+.projects-img4 {
+    background: url('../img/ipyg-logo.png') no-repeat center;
+    background-size: contain;
+    min-height: 200px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 0px;
+    border-right: 15px solid #fff;
+}
+
+.top-fix {
+    margin-top: 0px;
+}
+
+.button-toggle {
+    background: #fff;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.button-toggle:focus {
+    outline: none;
+}
+
+#text1, #text2, #text3 {
+    display: none;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.table > thead > tr > th {
+    border-bottom: 2px solid #000;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #e7e7e7;
+}
+
+.table-striped > tbody > tr > td {
+    border: 0px;
+}
+
+.contact ul {
+    padding-left: 0px;
+}
+
+.footer-distributed {
+    background-color: #11365E;
+    /*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);*/
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+
+    padding: 50px 60px 40px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    float: right;
+}
+
+.footer-distributed .footer-right p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #ffffff;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display:inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.8;
+    color:  inherit;
+    margin-right: 15px;
+}
+
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+@media (max-width: 1000px) {
+
+    .top-sm-fix {
+        margin-top: 20px;
+    }
+
+    .sm-fix, .sm-fix2 {
+        padding-left: 0px;
+    }
+
+    .projects-img, .projects-img-3 {
+        border-right: 30px solid #fff;
+    }
+
+    .projects-img2, .projects-img4 {
+        margin-top: 20px;
+    }
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-company-name{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .correct {
+        margin-top: 0px;
+    }
+
+    .projects-img {
+        display: none;
+    }
+
+    .ustrojstvo-xs-fix {
+        padding-left: 0px;
+    }
+
+    .footer-distributed{
+        padding: 30px;
+    }
+
+        .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        float: none;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .footer-distributed .footer-left{
+        margin-bottom: 40px;
+    }
+
+    .mini-mobile-logo {
+        height: 30px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 990px) {
+    .img-correct {
+        min-height: 200px;
+    }
+}
+
+@media(max-width: 500px) {
+    .navbar-nav li {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .img-correct {
+        min-height: 200px;
+    }
+}
+
+@media(max-width: 320px) {
+    .footer-distributed {
+        padding: 15px;
+    }
+}
+
+.about-list {
+    list-style-type: none;
+}
