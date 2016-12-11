@@ -1,5 +1,5 @@
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 body {
@@ -12,12 +12,12 @@ body {
 }
 
 h1, h2, h3, a {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-weight: 900;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -211,6 +211,10 @@ a, a:hover, a:focus {
 .big-icon {
     font-size: 160px !important;
     color: #000;
+}
+
+.home-fix {
+    margin-bottom: 0px;
 }
 
 .no-padding {
