@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
+
+import { PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
 
 @Component({
   selector: 'app-projects',
@@ -7,12 +10,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
+    this.scrollToMain();
   }
 
-  toggleText(text: string, button: string): void {
+  public scrollToMain(): void {
+    let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#main');
+    this.pageScrollService.start(pageScrollInstance);
+  }
+
+  public toggleText(text: string, button: string): void {
     let x = document.getElementById(button);
     if (x.textContent === 'Pročitaj više ') {
       x.textContent = '';
