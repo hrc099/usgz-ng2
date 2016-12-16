@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, AfterViewChecked, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 
 import { PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
@@ -11,14 +11,17 @@ import { Member } from '../member';
   templateUrl: './membership.component.html',
   styleUrls: ['./membership.component.css']
 })
-export class MembershipComponent implements OnInit {
+export class MembershipComponent implements AfterViewChecked {
 
   private members: Member[];
 
-  constructor(private membershipService: MembershipService, 
-  private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: Document) {}
+  constructor
+  (private membershipService: MembershipService, private pageScrollService: PageScrollService, @Inject
+  (DOCUMENT) private document: Document) {
 
-  ngOnInit() {
+  }
+
+  ngAfterViewChecked() {
     this.membershipService.getMembers().subscribe(members => {
       this.members = members;
     });
