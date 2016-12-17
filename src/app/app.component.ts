@@ -9,7 +9,7 @@ import {PageScrollConfig} from 'ng2-page-scroll';
 export class AppComponent {
 
   constructor() {
-    PageScrollConfig.defaultDuration = 750;
+    PageScrollConfig.defaultDuration = 1000;
   }
 
 }

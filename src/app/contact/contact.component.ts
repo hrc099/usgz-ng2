@@ -1,4 +1,4 @@
-import { Component, AfterViewChecked, Inject } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 
 import { PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
@@ -8,11 +8,11 @@ import { PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements AfterViewChecked {
+export class ContactComponent implements OnInit {
 
   constructor(private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: Document) { }
 
-  ngAfterViewChecked() {
+  ngOnInit() {
     this.scrollToMain();
   }
 
