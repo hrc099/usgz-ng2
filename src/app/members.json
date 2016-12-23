@@ -54,6 +54,12 @@
         "isActive": true
     },
     {
+        "name": "Antonio",
+        "surname": "Jozipović",
+        "status": "redovno",
+        "isActive": true
+    },
+    {
         "name": "Nikola",
         "surname": "Jukić",
         "status": "redovno",

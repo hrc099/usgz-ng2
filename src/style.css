@@ -116,6 +116,7 @@ a, a:hover, a:focus {
 
 .navbar-scroll {
     background: #fff;
+    margin-top: 0px;
 }
 
 /* CSS used here will be applied after bootstrap.css */
