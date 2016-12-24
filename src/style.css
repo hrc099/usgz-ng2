@@ -119,6 +119,16 @@ a, a:hover, a:focus {
     margin-top: 0px;
 }
 
+.link-logo {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+#logo2 {
+    display: none;
+    height: 30px;
+}
+
 /* CSS used here will be applied after bootstrap.css */
 .navbar-collapse {
     text-align:center;

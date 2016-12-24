@@ -17,11 +17,17 @@ export class AppComponent {
   onWindowScroll() {
     let nav = this.document.getElementById('header-nav');
     let scrolledHeight = this.document.body.scrollTop;
+    let logo1 = this.document.getElementById('logo1');
+    let logo2 = this.document.getElementById('logo2');
     if (scrolledHeight > 50) {
       nav.className = 'navbar navbar-fixed-top navbar-scroll';
+      logo1.style.display = 'none';
+      logo2.style.display = 'block';
     }
     else {
       nav.className = 'navbar navbar-fixed-top navbar-start';
+      logo2.style.display = 'none';
+      logo1.style.display = 'block';
     }
   }
 }
