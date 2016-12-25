@@ -11,6 +11,7 @@ export class AppComponent {
 
   constructor(@Inject(DOCUMENT) private document: Document) {
     PageScrollConfig.defaultDuration = 1000;
+    PageScrollConfig.defaultScrollOffset = 50;
   }
 
   @HostListener('window:scroll', [])

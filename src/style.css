@@ -6,6 +6,23 @@ body {
     font-size: 16px;
 }
 
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: #195493;
+}
+
+.loader-logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .section {
     padding-bottom: 0px;
     padding-top: 35px;
@@ -293,6 +310,17 @@ a, a:hover, a:focus {
     margin-top: 20px;
     padding: 0px;
     border-right: 15px solid #fff;
+}
+
+.projects-img5 {
+    background: url('img/zov-logo.png') no-repeat center;
+    background-size: contain;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 0px;
+    border-left: 15px solid #fff;
 }
 
 .top-fix {
