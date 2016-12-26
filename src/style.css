@@ -339,7 +339,7 @@ a, a:hover, a:focus {
     outline: none;
 }
 
-#text1, #text2, #text3 {
+#text1, #text2, #text3, #text4 {
     display: none;
     font-size: 18px;
     line-height: 1.5;
