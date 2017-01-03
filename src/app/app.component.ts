@@ -20,15 +20,18 @@ export class AppComponent {
     let scrolledHeight = this.document.body.scrollTop;
     let logo1 = this.document.getElementById('logo1');
     let logo2 = this.document.getElementById('logo2');
+    let zet = this.document.getElementById('zet');
     if (scrolledHeight > 50) {
       nav.className = 'navbar navbar-fixed-top navbar-scroll';
       logo1.style.display = 'none';
       logo2.style.display = 'block';
+      zet.style.right = '0';
     }
     else {
       nav.className = 'navbar navbar-fixed-top navbar-start';
       logo2.style.display = 'none';
       logo1.style.display = 'block';
+      zet.style.right = '20px';
     }
   }
 }
