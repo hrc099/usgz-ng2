@@ -172,6 +172,10 @@ a, a:hover, a:focus {
     font-size: 20px;
 }
 
+.zet-auto-width {
+    min-width: 170px;
+}
+
 .disabled-link, .disabled-link:hover, .disabled-link:before,
 .disabled-link:after {
     content: none;
@@ -368,9 +372,8 @@ a, a:hover, a:focus {
     width: 100%;
     font: bold 16px sans-serif;
     text-align: left;
-
-    padding: 50px 60px 40px;
-    margin-top: 80px;
+    margin-top: 40px;
+    padding: 40px 0;
     overflow: hidden;
 }
 
