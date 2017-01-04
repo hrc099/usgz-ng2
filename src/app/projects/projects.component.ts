@@ -23,6 +23,9 @@ export class ProjectsComponent implements OnInit {
 
   public toggleText(text: string, button: string): void {
     let x = document.getElementById(button);
+    let a = document.getElementById(text);
+    a.classList.toggle('fadeIn');
+
     if (x.textContent === 'Pročitaj više ') {
       x.textContent = '';
       x.insertAdjacentHTML( 'afterbegin',
@@ -31,7 +34,7 @@ export class ProjectsComponent implements OnInit {
       x.textContent = '';
       x.insertAdjacentHTML( 'afterbegin', 'Pročitaj više <i class="fa fa-angle-down" aria-hidden="true"></i>' );
     }
-    let a = document.getElementById(text);
+
     if (a.style.display === 'block') {
       a.style.display = 'none';
     } else {
