@@ -304,6 +304,16 @@ a, a:hover, a:focus {
     border-right: 15px solid #fff;
 }
 
+.projects-img-zet {
+    background: url('img/slika3.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 350px;
+    margin-bottom: 40px;
+    padding-right: 0px;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+}
+
 .projects-img3 {
     background: url('img/czmz-logo1.jpg') no-repeat center;
     background-size: contain;
@@ -352,7 +362,7 @@ a, a:hover, a:focus {
     outline: none;
 }
 
-#text1, #text2, #text3, #text4 {
+#text1, #text2, #text3, #text4, #text5 {
     display: none;
     font-size: 18px;
     line-height: 1.5;
